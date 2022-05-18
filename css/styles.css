@@ -200,11 +200,12 @@ body {
   background-image: linear-gradient(to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-      url(../images/backgrond-images/Img\ \(1\).jpg);
+      url(../images/backgrond-images/hero-bg.jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
       max-width: 1600px;
+      height: 600px;
       margin-right: auto;
       margin-left: auto;
 }
@@ -516,7 +517,7 @@ margin-bottom: 16px;
   
 }
 
-.footer-sections {
+.footer>.container {
   display: flex;
   align-items: baseline;
 }
@@ -527,6 +528,7 @@ margin-bottom: 16px;
   line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  font-weight: 700;
 
   color: var(--theme-color-light);
 }
@@ -565,6 +567,7 @@ margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
   cursor: pointer;
   border: 0;
   border-radius: 4px;
